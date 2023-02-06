@@ -13,7 +13,7 @@ jobs:
         env:
           TEST_NAME: alumnoTests
         with:
-          configuration: test/phpunit.xml
+          configuration: tests/phpunit.xml
           args: --coverage-text
   cd:
     runs-on: ubuntu-latest
