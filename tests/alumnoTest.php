@@ -15,6 +15,6 @@ class alumnoTest extends TestCase
    public function testObtenerNombre()
    {
       $objeto = new alumno("Alejandro", 5);
-      $this->assertEquals("Marc", $objeto->obtenerNombre());
+      $this->assertEquals("Alejandro", $objeto->obtenerNombre());
    }
 }
